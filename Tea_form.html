@@ -1,0 +1,108 @@
+<html>
+
+<head>
+
+   <title>ContactandGiveaway</title>
+   <link href="Form.css" rel="stylesheet" type="text/css" />
+   <link href="main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <div id="head"><img src="Tea_form_picture.jpg" alt="The teapot" /></div>
+<br/>
+   </div>
+<br/>
+
+
+   <div id="mainContent">
+      <div id="leftColumn">
+         <p>Thank you for taking the time to look through our website. We hope we were able to enlighten you on the value of teas
+		 and to get you started on your tea sipping journey.
+         </p>
+         <p>Please take some time to fill out this form and let us know in the comments what flavours you would like to see added here..</p>
+         <p>Remember to to stay active, stay healthy, stay mindful and most of all remember not to miss your tea time.</p>
+         <p>Safe Travels.</p>
+         <p>&mdash; SunSun Teas<br />
+            &nbsp;&nbsp;&nbsp; Your favourite cup of tea.</p>
+         
+      </div>
+
+      <div id="rightColumn">
+        
+		 
+		 <form action ="teashopscript.php" method = "post">
+
+<fieldset id="contact information" >
+<legend> Giveaway & Feedback</legend>
+<fieldset>
+<br/>
+
+		  
+		  
+   <fieldset id="Subscription">
+   <legend> Random Giveaway </legend>
+   <label class="labelblock"> First & Last Name<span>*</span> <input type="text" id="client_FirstN" name="client_name"/>
+   </label>
+   <br/>
+   
+ <label class="optionlabel">Favourite Tea <span>*</span>
+<select name="teatype" id="favtea" name="favtea" >
+<optgroup label="Choice">
+<option>Herbal</option>
+<option>caffeinated</option>
+<option>decaffeinated</option>
+</optgroup>
+
+</select>
+</label>
+<br/>
+
+ <label class="labelblock"> Favourite Flavour <span>*</span> <input type="text" id="fav" name="fav" />
+   </label>
+   <br/>
+   
+   <label class="labelblock"> Email Address <span>*</span> <input type="text" id="client_address" name="client_address"/>
+   </label>
+   <br/>
+   <label class="labelblock"> Phone Number<span>*</span> <input type="text" id="client_phone" name="client_phone" />
+   </label>
+   <br/>
+ <label class="labelblock"> Delivery Address<span>*</span> <input type="text" id="client_address" name="client_address" />
+   </label>
+</fieldset>
+<br/>
+<fieldset>
+<legend> Feedback </legend>
+<label class="labelfeedback">
+<input type="checkbox" id="message" name="message" value="yes" />
+I would like to recieve emails on future promotions. <br/>
+<br/> Don't be shy </label>
+<br/>
+<label class="labelfeedback"> <br/>
+<textarea name="comment" id="comment" rows="5" cols="50">
+</textarea>
+</label>
+</fieldset>
+
+<input type="submit" value="Submit"/>
+
+
+
+
+      </div>
+
+      <address>
+         SunSun Tea &bull;
+         123 milkway rd. &bull;
+         Canada &bull;
+         (514) 444 - 5555
+      </address>
+
+  <p style="text-align: center"> <a href = "Homepage.html"> Head back to the main page. <a/> </p>
+
+  </div>
+  </form>
+</body>
+
+</html>
